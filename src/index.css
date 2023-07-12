@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.App{
+  background-color: white;
+  max-width: 100%;
+}
+
+ 
