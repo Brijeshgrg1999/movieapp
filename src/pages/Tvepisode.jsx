@@ -4,14 +4,15 @@ import axios from 'axios';
 import Card from '../components/Card';
 import { RingLoader } from 'react-spinners';
 
-function Tvshow() {
+function Tvepisode() {
     const [show , setShow ] = useState([]) ; 
     const apiKey = '01b2194e0d3126278b4cd10749993496' ; 
     const [loading , setLoading ] =useState(true) ; 
 
     useEffect(() => {
         async function fetchShows() {
-          await axios.get(`https://api.themoviedb.org/3/tv/popular?api_key=${apiKey}&language=en-US&page=1`)
+           
+          await axios.get(` https://api.themoviedb.org/3/tv/top_rated?api_key=${apiKey}`)
             .then((res) => {
               console.log(res.data.results);
               setShow(res.data.results);
@@ -50,4 +51,4 @@ function Tvshow() {
   )
 }
 
-export default Tvshow
+export default Tvepisode ; 

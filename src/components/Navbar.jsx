@@ -13,8 +13,8 @@ function Navbar() {
     </div>
     <div className='flex gap-5'>
         <Link to='/tvshow'>TV SHOWS</Link>
-        <Link to='/tvepisode'>TV EPIDSODE  </Link>
-        <Link to='/list'>MY LISTS </Link>
+        <Link to='/tvepisode'>TOP RATED SHOWS </Link>
+        <Link to='/Mylists'>MY LISTS </Link>
     </div>
     <div>
         <SearchBar />
