@@ -1,3 +1,11 @@
+website is live at : https://moviestats-pro.netlify.app/ 
+still under improvement . 
+Further developmet : 
+- Fix the saving the movie/show feature to the list
+- create new feature of user authentication
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
